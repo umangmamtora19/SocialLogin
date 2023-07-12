@@ -8,10 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00D01AF632196466B3E25B552C7E4FF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		73E090792A5F0E94006C98B2 /* AppleLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E090762A5F0E94006C98B2 /* AppleLogin.swift */; };
-		73E0907A2A5F0E94006C98B2 /* FacebookSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E090772A5F0E94006C98B2 /* FacebookSignUp.swift */; };
-		73E0907B2A5F0E94006C98B2 /* GoogleSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E090782A5F0E94006C98B2 /* GoogleSignUp.swift */; };
-		73E0907D2A5F1530006C98B2 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E0907C2A5F1530006C98B2 /* ViewExtension.swift */; };
+		73E090812A5F1B84006C98B2 /* SocialLoginSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E090802A5F1B84006C98B2 /* SocialLoginSwift.swift */; };
 		73E600EA6D1B1EDE82020C9D0D971935 /* Pods-SocialLoginSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C2074D29048A2D95AE93CEB62498E6 /* Pods-SocialLoginSwift_Tests-dummy.m */; };
 		7899E526E7DA8883456DB0B12A2A8A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9ED3EE4CD3A491386A2C103D933FB501 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -55,10 +52,7 @@
 		6C80347F8BAA8B34F5A7ACEDDF725A11 /* Pods-SocialLoginSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SocialLoginSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		71C4ABA318D6126FE13C395ED8CE101B /* Pods-SocialLoginSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SocialLoginSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		73E090762A5F0E94006C98B2 /* AppleLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleLogin.swift; sourceTree = "<group>"; };
-		73E090772A5F0E94006C98B2 /* FacebookSignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookSignUp.swift; sourceTree = "<group>"; };
-		73E090782A5F0E94006C98B2 /* GoogleSignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleSignUp.swift; sourceTree = "<group>"; };
-		73E0907C2A5F1530006C98B2 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		73E090802A5F1B84006C98B2 /* SocialLoginSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialLoginSwift.swift; sourceTree = "<group>"; };
 		74DEB4A463C2B699DB7A5A05C33FB40E /* Pods-SocialLoginSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SocialLoginSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		75E080B75E7CC7B0F40A140A872C16BA /* SocialLoginSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SocialLoginSwift-Info.plist"; sourceTree = "<group>"; };
 		80937B4EB18764EE0A01D8302463D729 /* Pods-SocialLoginSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SocialLoginSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -162,13 +156,10 @@
 			path = "Target Support Files/Pods-SocialLoginSwift_Tests";
 			sourceTree = "<group>";
 		};
-		73E090752A5F0E33006C98B2 /* Classes */ = {
+		73E0907F2A5F1B84006C98B2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				73E090762A5F0E94006C98B2 /* AppleLogin.swift */,
-				73E090772A5F0E94006C98B2 /* FacebookSignUp.swift */,
-				73E090782A5F0E94006C98B2 /* GoogleSignUp.swift */,
-				73E0907C2A5F1530006C98B2 /* ViewExtension.swift */,
+				73E090802A5F1B84006C98B2 /* SocialLoginSwift.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -196,7 +187,7 @@
 		BB398E63B21E51395A1FC2561F30211F /* SocialLoginSwift */ = {
 			isa = PBXGroup;
 			children = (
-				73E090752A5F0E33006C98B2 /* Classes */,
+				73E0907F2A5F1B84006C98B2 /* Classes */,
 				9835978165CC4C7EAB515FA76AF118E8 /* Pod */,
 				2DEAA173E09AA382A5425818E9DC1197 /* Support Files */,
 			);
@@ -389,11 +380,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73E0907B2A5F0E94006C98B2 /* GoogleSignUp.swift in Sources */,
-				73E090792A5F0E94006C98B2 /* AppleLogin.swift in Sources */,
+				73E090812A5F1B84006C98B2 /* SocialLoginSwift.swift in Sources */,
 				CE3DCAA36A007DADAA51B3F39D908436 /* Pods-SocialLoginSwift_Example-dummy.m in Sources */,
-				73E0907A2A5F0E94006C98B2 /* FacebookSignUp.swift in Sources */,
-				73E0907D2A5F1530006C98B2 /* ViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

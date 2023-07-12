@@ -1,9 +1,9 @@
 {
   "name": "SocialLoginSwift",
   "version": "0.1.0",
-  "summary": "A short description of SocialLoginSwift.",
-  "description": "A helper for social login",
-  "homepage": "https://github.com/Umang/SocialLoginSwift",
+  "summary": "Simple Social Login.",
+  "description": "Provides google login, apple login and facebook login with ease",
+  "homepage": "https://github.com/umangmamtora19/SocialLogin",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,16 +12,11 @@
     "Umang": "umangmamtora4@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Umang/SocialLoginSwift.git",
+    "git": "https://github.com/umangmamtora19/SocialLogin.git",
     "tag": "0.1.0"
   },
-  "dependencies": {
-    "GoogleSignIn": [
-
-    ]
-  },
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
-  "source_files": "SocialLoginSwift/Classes/**/*"
+  "source_files": "Classes/**/*.swift"
 }

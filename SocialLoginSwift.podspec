@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SocialLoginSwift'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SocialLoginSwift.'
+  s.summary          = 'Simple Social Login.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'some'
+  s.description      = 'Provides google login, apple login and facebook login with ease'
  
  s.homepage         = 'https://github.com/umangmamtora19/SocialLogin'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -28,9 +28,9 @@ Pod::Spec.new do |s|
 #  s.dependency 'GoogleSignIn', '~> 4.0'
 
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
-  s.source_files = 'SocialLoginSwift/Classes/**/*'
+  s.source_files = 'Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'SocialLoginSwift' => ['SocialLoginSwift/Assets/*.png']
