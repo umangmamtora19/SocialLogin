@@ -8,9 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		00D01AF632196466B3E25B552C7E4FF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		73E090792A5F0E94006C98B2 /* AppleLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E090762A5F0E94006C98B2 /* AppleLogin.swift */; };
+		73E0907A2A5F0E94006C98B2 /* FacebookSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E090772A5F0E94006C98B2 /* FacebookSignUp.swift */; };
+		73E0907B2A5F0E94006C98B2 /* GoogleSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E090782A5F0E94006C98B2 /* GoogleSignUp.swift */; };
+		73E0907D2A5F1530006C98B2 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E0907C2A5F1530006C98B2 /* ViewExtension.swift */; };
 		73E600EA6D1B1EDE82020C9D0D971935 /* Pods-SocialLoginSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C2074D29048A2D95AE93CEB62498E6 /* Pods-SocialLoginSwift_Tests-dummy.m */; };
 		7899E526E7DA8883456DB0B12A2A8A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7AD6340C117742C10BCF59F31366B994 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E7E631372424DA3BF862C0C535033A /* ReplaceMe.swift */; };
 		9ED3EE4CD3A491386A2C103D933FB501 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		AA238D99EDD6384B664E6105CC557AAF /* SocialLoginSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5701CCD3DDDD4719EE80A89155F56297 /* SocialLoginSwift-dummy.m */; };
 		AB0431DDD55D977C70210AF2DE0272FB /* SocialLoginSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19EECEA4DDF05522A21BAC116048CF81 /* SocialLoginSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,22 +46,26 @@
 		19EECEA4DDF05522A21BAC116048CF81 /* SocialLoginSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocialLoginSwift-umbrella.h"; sourceTree = "<group>"; };
 		331399D5ACFF560091C02C8F11B21FEB /* Pods-SocialLoginSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SocialLoginSwift_Example-Info.plist"; sourceTree = "<group>"; };
 		3EBDA6E14A7429D1CE6AB58F21F8887F /* Pods-SocialLoginSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SocialLoginSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4081C335C15788003E9E8C95D143A265 /* SocialLoginSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SocialLoginSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4081C335C15788003E9E8C95D143A265 /* SocialLoginSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SocialLoginSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		40AB70C078BCB22017656F83035520AF /* Pods-SocialLoginSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SocialLoginSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		48FD410E76A266F5E561AF09C59BCBE5 /* Pods-SocialLoginSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SocialLoginSwift_Example-umbrella.h"; sourceTree = "<group>"; };
 		5701CCD3DDDD4719EE80A89155F56297 /* SocialLoginSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocialLoginSwift-dummy.m"; sourceTree = "<group>"; };
 		5DD64714E9CCCE07F76BD70B21727825 /* Pods-SocialLoginSwift_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SocialLoginSwift_Tests"; path = Pods_SocialLoginSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6254F2EE9693659397D6A6933A18C8FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6254F2EE9693659397D6A6933A18C8FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6C80347F8BAA8B34F5A7ACEDDF725A11 /* Pods-SocialLoginSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SocialLoginSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		71C4ABA318D6126FE13C395ED8CE101B /* Pods-SocialLoginSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SocialLoginSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73E090762A5F0E94006C98B2 /* AppleLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleLogin.swift; sourceTree = "<group>"; };
+		73E090772A5F0E94006C98B2 /* FacebookSignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookSignUp.swift; sourceTree = "<group>"; };
+		73E090782A5F0E94006C98B2 /* GoogleSignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleSignUp.swift; sourceTree = "<group>"; };
+		73E0907C2A5F1530006C98B2 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 		74DEB4A463C2B699DB7A5A05C33FB40E /* Pods-SocialLoginSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SocialLoginSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		75E080B75E7CC7B0F40A140A872C16BA /* SocialLoginSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SocialLoginSwift-Info.plist"; sourceTree = "<group>"; };
 		80937B4EB18764EE0A01D8302463D729 /* Pods-SocialLoginSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SocialLoginSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8F941F4202B02086544202D79B5B1182 /* SocialLoginSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SocialLoginSwift.modulemap; sourceTree = "<group>"; };
 		959D392E0821867623CB449B542B7D10 /* Pods-SocialLoginSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SocialLoginSwift_Example.modulemap"; sourceTree = "<group>"; };
-		98B695D25670F158E2C345D9E46711A2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98B695D25670F158E2C345D9E46711A2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6B9AAF3F6D0270DD43B8DCDEB3317DA /* Pods-SocialLoginSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SocialLoginSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
 		BAF178B985E82D6440891E2606648C39 /* Pods-SocialLoginSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SocialLoginSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BFFC92BDC87C8C334F799929541BA44E /* Pods-SocialLoginSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SocialLoginSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -67,8 +74,7 @@
 		DEF529EF454BD7289AB5CC434EE526D1 /* SocialLoginSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SocialLoginSwift; path = SocialLoginSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4EF1B917A23921F85AA295C9D4E0C19 /* Pods-SocialLoginSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SocialLoginSwift_Tests.modulemap"; sourceTree = "<group>"; };
 		F4FECA4E934C991C9674794385B14550 /* Pods-SocialLoginSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SocialLoginSwift_Tests-Info.plist"; sourceTree = "<group>"; };
-		F8E7E631372424DA3BF862C0C535033A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SocialLoginSwift/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		FC997070492FB40725475B8E70C7BF0C /* Pods-SocialLoginSwift_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SocialLoginSwift_Example"; path = Pods_SocialLoginSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC997070492FB40725475B8E70C7BF0C /* Pods_SocialLoginSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialLoginSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB6E9EBC566D9E2988D2221CA0F1C2E /* Pods-SocialLoginSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SocialLoginSwift_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,10 +162,21 @@
 			path = "Target Support Files/Pods-SocialLoginSwift_Tests";
 			sourceTree = "<group>";
 		};
+		73E090752A5F0E33006C98B2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				73E090762A5F0E94006C98B2 /* AppleLogin.swift */,
+				73E090772A5F0E94006C98B2 /* FacebookSignUp.swift */,
+				73E090782A5F0E94006C98B2 /* GoogleSignUp.swift */,
+				73E0907C2A5F1530006C98B2 /* ViewExtension.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		90F54F53FC4529BCD2E7844A1B735717 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FC997070492FB40725475B8E70C7BF0C /* Pods-SocialLoginSwift_Example */,
+				FC997070492FB40725475B8E70C7BF0C /* Pods_SocialLoginSwift_Example.framework */,
 				5DD64714E9CCCE07F76BD70B21727825 /* Pods-SocialLoginSwift_Tests */,
 				DEF529EF454BD7289AB5CC434EE526D1 /* SocialLoginSwift */,
 			);
@@ -179,7 +196,7 @@
 		BB398E63B21E51395A1FC2561F30211F /* SocialLoginSwift */ = {
 			isa = PBXGroup;
 			children = (
-				F8E7E631372424DA3BF862C0C535033A /* ReplaceMe.swift */,
+				73E090752A5F0E33006C98B2 /* Classes */,
 				9835978165CC4C7EAB515FA76AF118E8 /* Pod */,
 				2DEAA173E09AA382A5425818E9DC1197 /* Support Files */,
 			);
@@ -288,7 +305,7 @@
 			);
 			name = "Pods-SocialLoginSwift_Example";
 			productName = Pods_SocialLoginSwift_Example;
-			productReference = FC997070492FB40725475B8E70C7BF0C /* Pods-SocialLoginSwift_Example */;
+			productReference = FC997070492FB40725475B8E70C7BF0C /* Pods_SocialLoginSwift_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		72EE4E36B8D5A7DBA14959F0054C0030 /* SocialLoginSwift */ = {
@@ -317,6 +334,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					3A2605A1EDFC96779555EEDD3E115385 = {
+						LastSwiftMigration = 1420;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -367,7 +389,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73E0907B2A5F0E94006C98B2 /* GoogleSignUp.swift in Sources */,
+				73E090792A5F0E94006C98B2 /* AppleLogin.swift in Sources */,
 				CE3DCAA36A007DADAA51B3F39D908436 /* Pods-SocialLoginSwift_Example-dummy.m in Sources */,
+				73E0907A2A5F0E94006C98B2 /* FacebookSignUp.swift in Sources */,
+				73E0907D2A5F1530006C98B2 /* ViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,7 +409,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AD6340C117742C10BCF59F31366B994 /* ReplaceMe.swift in Sources */,
 				AA238D99EDD6384B664E6105CC557AAF /* SocialLoginSwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +468,7 @@
 			baseConfigurationReference = C14D5E09F79E175928577BAB3E70CC3B /* Pods-SocialLoginSwift_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -465,6 +491,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -560,8 +588,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -702,6 +729,7 @@
 			baseConfigurationReference = 74DEB4A463C2B699DB7A5A05C33FB40E /* Pods-SocialLoginSwift_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -724,6 +752,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

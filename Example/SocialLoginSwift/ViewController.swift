@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import SocialLoginSwift
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var circleView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       
+        circleView.makeRounded()
     }
 
     override func didReceiveMemoryWarning() {
