@@ -7,8 +7,14 @@
 
 import UIKit
 
+public class Decor {
+    public static func makeRounded(view: UIView) {
+        view.layer.cornerRadius = view.frame.width / 2
+    }
+}
+
 extension UIView {
-    func makeRounded() {
-        self.layer.cornerRadius = self.frame.width / 2
+    public func setCorner(radius: CGFloat) {
+        self.layer.cornerRadius = radius
     }
 }

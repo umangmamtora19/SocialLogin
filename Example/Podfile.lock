@@ -1,5 +1,5 @@
 PODS:
-  - SocialLoginSwift (0.1.0)
+  - SocialLoginSwift (0.0.1)
 
 DEPENDENCIES:
   - SocialLoginSwift (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SocialLoginSwift: f8586faf78657586df09f8b8e03404ad1e57a8fc
+  SocialLoginSwift: 2e535ae69dee8649f6d516eeac3768ff2340aadd
 
-PODFILE CHECKSUM: 48b6f7ac3e9f01333286c8860197b846bea31ee1
+PODFILE CHECKSUM: d556797e2eb8e93a48e849ba685fc2a6ca2441cc
 
 COCOAPODS: 1.12.1

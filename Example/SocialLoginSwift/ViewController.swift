@@ -14,8 +14,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var circleView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
-       
-        circleView.makeRounded()
+//        Decor.makeRounded(view: circleView)
+        circleView.setCorner(radius: 10)
+//        circleView.makeRounded()
     }
 
     override func didReceiveMemoryWarning() {
