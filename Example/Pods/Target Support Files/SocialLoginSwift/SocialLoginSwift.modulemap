@@ -1,0 +1,6 @@
+framework module SocialLoginSwift {
+  umbrella header "SocialLoginSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

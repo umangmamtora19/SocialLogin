@@ -1,0 +1,22 @@
+{
+  "name": "SocialLoginSwift",
+  "version": "0.1.0",
+  "summary": "A short description of SocialLoginSwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Umang/SocialLoginSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Umang": "umangmamtora4@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Umang/SocialLoginSwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "SocialLoginSwift/Classes/**/*"
+}
