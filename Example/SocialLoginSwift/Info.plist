@@ -18,8 +18,39 @@
 	<string>1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLIconFile</key>
+			<string></string>
+			<key>CFBundleURLName</key>
+			<string>GOOGLE_SIGNIN_REVERSED_CLIENT_ID</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.946911089038-u1jb7e23p5ks07alsr25l5gtg1qn92e3</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>FB_APP_ID</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb796989578741549</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>FacebookAppID</key>
+	<string>796989578741549</string>
+	<key>FacebookClientToken</key>
+	<string>923ad8477ef1e5ae640f1dcae6a77774</string>
+	<key>FacebookDisplayName</key>
+	<string>Social-Login-Example</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>

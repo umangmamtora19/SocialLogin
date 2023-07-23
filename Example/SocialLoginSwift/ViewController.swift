@@ -11,18 +11,39 @@ import SocialLoginSwift
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var btnGoogle: UIButton!
     @IBOutlet weak var circleView: UIView!
+    
+    let socialLogin = SocialLogin()
+    let appleSignIn = SocialLogin()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-//        Decor.makeRounded(view: circleView)
-        circleView.setCorner(radius: 10)
-//        circleView.makeRounded()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func btnGoogleAction(_ sender: UIButton) {
+        socialLogin.clientID = "946911089038-u1jb7e23p5ks07alsr25l5gtg1qn92e3.apps.googleusercontent.com"
+        socialLogin.googlesignIn(view: self) { success, message, userInfo in
+            if success {
+                print(userInfo?.name ?? "")
+            } else {
+                print("Error : \(message)")
+            }
+        }
     }
-
+    
+    @IBAction func btnAppleAction(_ sender: UIButton) {
+        appleSignIn.appleLogin(view: self)
+    }
+    
+    @IBAction func btnFacebookAction(_ sender: UIButton) {
+        socialLogin.facebookLogin(view: self) { success, message, userInfo in
+            if success {
+                print(userInfo?.name ?? "")
+            } else {
+                print("Error : \(message)")
+            }
+        }
+    }
 }
 

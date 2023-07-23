@@ -25,7 +25,6 @@ Pod::Spec.new do |s|
   s.author           = { 'Umang' => 'umangmamtora4@gmail.com' }
   s.source           = { :git => 'https://github.com/umangmamtora19/SocialLogin.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-#  s.dependency 'GoogleSignIn', '~> 4.0'
 
 
   s.ios.deployment_target = '13.0'
@@ -38,5 +37,7 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency 'GoogleSignIn'
+    s.dependency 'FBSDKLoginKit'
+
 end
