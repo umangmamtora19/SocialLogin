@@ -29,7 +29,7 @@
 			<string>GOOGLE_SIGNIN_REVERSED_CLIENT_ID</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.googleusercontent.apps.946911089038-u1jb7e23p5ks07alsr25l5gtg1qn92e3</string>
+				<string></string>
 			</array>
 		</dict>
 		<dict>
@@ -39,20 +39,20 @@
 			<string>FB_APP_ID</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb796989578741549</string>
+				<string></string>
 			</array>
 		</dict>
 	</array>
-	<key>CFBundleVersion</key>
-	<string>1</string>
 	<key>FacebookAppID</key>
-	<string>796989578741549</string>
+	<string></string>
 	<key>FacebookClientToken</key>
-	<string>923ad8477ef1e5ae640f1dcae6a77774</string>
+	<string></string>
 	<key>FacebookDisplayName</key>
 	<string>Social-Login-Example</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>CFBundleVersion</key>
+	<string>1</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

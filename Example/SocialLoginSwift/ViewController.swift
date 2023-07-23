@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func btnGoogleAction(_ sender: UIButton) {
-        socialLogin.clientID = "946911089038-u1jb7e23p5ks07alsr25l5gtg1qn92e3.apps.googleusercontent.com"
+        socialLogin.clientID = ""
         socialLogin.googlesignIn(view: self) { success, message, userInfo in
             if success {
                 print(userInfo?.name ?? "")
